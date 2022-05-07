@@ -24,13 +24,6 @@ class ReadWorldWith60s extends NIL.ModuleBase{
             }
         
         });
-        api.listen('onGroupMessageReceived',(o)=>{
-            var id =setInterval(function(){
-                if (new Date().getMinutes()==3 &&new Date().getHours()==11&&new Date().getSeconds()==0){
-                    o.reply([`今日60s读懂世界:`,retrunImg()]);
-                }
-            },1000,id)
-        })
     }
     onStop(){
    
