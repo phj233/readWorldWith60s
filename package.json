@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/phj233/readWorldWith60s/issues"
   },
-  "homepage": "https://github.com/phj233/readWorldWith60s#readme"
+  "homepage": "https://github.com/phj233/readWorldWith60s#readme",
+  "dependencies": {
+    "node-cron": "^3.0.0"
+  }
 }
